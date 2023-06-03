@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background: rgb(92, 154, 179);
+}
+
+
+
+.juego{
+    border: solid 3px black;
+    padding: 10px 10px;
+    background: skyblue;
+    text-align: center;
+}
+
+.textoInicial{
+    border: dashed 1px black;
+    margin: 5px;
+    border-radius: 6px;
+    padding: 5px 5px;
+}
+
+
+
+.opciones{
+    display: grid;
+}
+
+.opcion{
+    margin: 7px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+#idImagen{
+    border: solid 2px black;
+}
+
+button:hover{
+    background-color: beige;
+}
